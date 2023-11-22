@@ -18,7 +18,7 @@ public class ButterflyPanel extends JPanel {
         ImageIcon butterflyImage = new ImageIcon("src/butterfly.png");
         ImageIcon netImage = new ImageIcon("src/net.png");
 
-        // Уменьшаем размеры изображений
+        // Уменьшаем размерчики изображений
         butterflyImage = resizeImageIcon(butterflyImage, 50, 50);
         netImage = resizeImageIcon(netImage, 50, 50);
 
